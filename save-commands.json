@@ -1,0 +1,5 @@
+{
+  "commands": [
+    "**/*.c : gcc -pipe -O2 -std=c11 {relFullPath} -o {relPath}/{name}"
+  ]
+}
